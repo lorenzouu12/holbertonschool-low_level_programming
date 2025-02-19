@@ -6,9 +6,8 @@
 * Description: Print the alphabet in lowercase, and uppercase,
 * then in uppercase, followed by a new line.
 *
-* Return: Always 0
+* Return: Always 0 (Success)
 */
-
 int main(void)
 {
 char letter;
