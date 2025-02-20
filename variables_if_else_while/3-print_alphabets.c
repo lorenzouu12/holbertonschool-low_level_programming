@@ -2,7 +2,7 @@
 
 /**
  * main - print the alphabet in lowercase, and uppercase,
- * floowed by a new line.
+ * followed by a new line.
  *
  * Return: Always 0 (Success)
  */
@@ -14,7 +14,9 @@ char letter, letr;
 for (letter = 'a'; letter <= 'z' ; letter++)
 {
 putchar(letter);
+}
 for (letr = 'A'; letr <= 'Z' ; letr++)
+{
 putchar(letr);
 }
 putchar('\n');
